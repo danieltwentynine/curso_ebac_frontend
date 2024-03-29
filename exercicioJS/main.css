@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    margin: 80px auto;
+    max-width: 640px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    margin-top: 40px;
+}
+
+input, button {
+    display: block;
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 30%;
+    resize: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.sucesso {
+    background-color: rgb(67, 186, 49);
+    color: white;
+    display: none;
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 30%;
+}
+
+.erro {
+    background-color: rgb(170, 45, 45);
+    color: white;
+    display: none;
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 30%;
+}
+
+.neutro {
+    background-color: rgb(170, 196, 40);
+    color: white;
+    display: none;
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 30%;
+}
