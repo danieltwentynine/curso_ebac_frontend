@@ -9,21 +9,23 @@
     margin: 80px auto;
     max-width: 640px;
     width: 100%;
-}
-
-h1 {
+    display: block;
     text-align: center;
 }
 
 form {
     margin-top: 40px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
 }
 
 input, button {
     display: block;
     padding: 8px;
     margin-bottom: 8px;
-    width: 30%;
+    width: 100%;
     resize: none;
 }
 
@@ -32,28 +34,25 @@ button {
 }
 
 .sucesso {
-    background-color: rgb(67, 186, 49);
     color: white;
     display: none;
     padding: 8px;
     margin-bottom: 8px;
-    width: 30%;
+    width: 100%;
 }
 
 .erro {
-    background-color: rgb(170, 45, 45);
     color: white;
     display: none;
     padding: 8px;
     margin-bottom: 8px;
-    width: 30%;
+    width: 100%;
 }
 
 .neutro {
-    background-color: rgb(170, 196, 40);
     color: white;
     display: none;
     padding: 8px;
     margin-bottom: 8px;
-    width: 30%;
+    width: 100%;
 }
