@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+
+    <main>
+        <section class="containet">
+            <form id="forms">
+                <h3>Cadastro</h3>
+                <input type="text" placeholder="Nome Completo" id="nome" name="nome" required>
+                <input type="email" placeholder="E-mail" id="email" name="email" required>
+                <input type="tel" placeholder="Celular" id="celular" name="celular" required>
+                <input type="number" placeholder="CPF" id="cpf" name="cpf" name="cpf" required>
+                <input type="text" placeholder="Endereço" id="endereco" name="endereco" required>
+                <input type="number" placeholder="Numero de sua casa" name="num" required>
+                <input type="text" id="estado" placeholder="Estado" name="estado" required>
+                <input type="number" placeholder="Cep" id="cep" name="cep" required>
+                <button type="submit" id="btn-cadastrar">Cadastrar</button>
+            </form>
+        </section>
+    </main>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="./plugins/jquery.mask.min.js"></script>
+    <script src="./plugins/jquery.validate.min.js"></script>
+    <script src="./plugins/messages_pt_BR.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

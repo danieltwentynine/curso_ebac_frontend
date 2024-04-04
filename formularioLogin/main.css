@@ -1,0 +1,77 @@
+@import url('https://fonts.cdnfonts.com/css/tracer');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Tracer', sans-serif;
+}
+
+body {
+    background: url(./images/background.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 20px;
+}
+
+.containet {
+    display: flex;
+    width: 750px;
+    height: 600px;
+    border: 3px solid rgba(126, 175, 255, 0.3);
+    border-radius: 30px;
+    backdrop-filter: blur(20px);
+    overflow: hidden;
+    filter: drop-shadow(20px 20px 20px rgba(0, 0, 0, 0.5));
+}
+
+form {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 4vw;
+}
+
+h3 {
+    margin: 40px 0;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 400;
+    font-family: 'Tracer Engraved', sans-serif;
+}
+
+form input {
+    width: 65%;
+    padding: 16px;
+    border: none;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 5px 0;
+}
+
+::placeholder {
+    color: #c7c7c7;
+    font-size: 12px;
+}
+
+form button {
+    margin-top: 5px;
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+form button:hover {
+    filter: drop-shadow(0px 0px 20px rgba(169, 90, 15, 0.611));
+}
