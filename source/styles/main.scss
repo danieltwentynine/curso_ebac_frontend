@@ -1,0 +1,11 @@
+@use 'var';
+
+body {
+    background-color: var.$bg;
+
+    img {
+        width: 100%;
+        max-width: 1024px;
+        margin: auto 0;
+    }
+}
